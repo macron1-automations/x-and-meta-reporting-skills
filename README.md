@@ -1,4 +1,4 @@
-# grok-and-muse-reporting-skills
+# X and Meta Reporting Skills
 
 Agent Skill package for posting reports/inboxes into **MacronX** ([github.com/macron1-automations/macronx](https://github.com/macron1-automations/macronx)) from Grok.
 
@@ -47,3 +47,4 @@ python3 /path/to/macronx/scripts/post-inbox.py \
   --payload-json '{"text":"hello from imported skill"}' \
   --dry-run
 ```
+
