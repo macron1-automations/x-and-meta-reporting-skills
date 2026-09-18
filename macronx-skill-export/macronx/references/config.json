@@ -1,0 +1,17 @@
+{
+  "api_url": "",
+  "api_key": "",
+  "auth_scheme": "Bearer",
+  "method": "POST",
+  "timeout_seconds": 30,
+  "envelope": {
+    "inbox": {
+      "name": "Insomnia test",
+      "source": "grok",
+      "summary": "Created from Insomnia",
+      "body": "Testing inbox creation from Insomnia",
+      "tag_id": 15,
+      "payload": {}
+    }
+  }
+}
