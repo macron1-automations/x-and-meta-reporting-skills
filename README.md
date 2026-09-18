@@ -38,6 +38,24 @@ Then turn this into JSON and Post a webhook to MacronX with that payload and set
 
 Trigger it daily.
 
+## Using with muse.ai (Meta)
+
+The same upload process works with **muse.ai** to do reporting on Meta. You'll need to adjust the `tag_id` in `references/config.json` to match the tag you're using in MacronX for the `meta-trends` workflow. See the sample prompt for Meta trends processing at [meta_trends.md](https://github.com/macron1-automations/macronx/blob/main/prompts/meta_trends.md).
+
+To use it with muse.ai, have a dialogue with it after updating the prompt, using something like:
+
+```
+Look at what's trending on Meta right now and give me the five most interesting conversations: what happened, why it's taking off, and the sharpest take you can find on each side of the debate.
+
+Then turn this into JSON and Post a webhook to MacronX with that payload
+```
+
+It'll respond with a post, and you can follow up with:
+
+```
+turn this into a recurring daily task
+```
+
 ## Smoke test
 
 After saving URL and key into `references/config.json`:
